@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fred/CLionProjects/CMPT135/cmpt_error.h
+string
+-
+stdexcept
+-
+
+/home/fred/CLionProjects/CMPT135/main.cpp
+cmpt_error.h
+/home/fred/CLionProjects/CMPT135/cmpt_error.h
+iostream
+-
+vector
+-
+cctype
+-
+

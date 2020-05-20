@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/pointers.dir/pointers.cpp.o CMakeFiles/pointers.dir/a1.cpp.o  -o pointers 

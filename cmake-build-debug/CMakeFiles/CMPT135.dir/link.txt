@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CMPT135.dir/main.cpp.o  -o CMPT135 

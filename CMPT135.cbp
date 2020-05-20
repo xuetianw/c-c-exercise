@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CMPT135"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googlemock\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fred/CLionProjects/CMPT135"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/fred/CLionProjects/CMPT135"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/fred/CLionProjects/CMPT135"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/fred/CLionProjects/CMPT135"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/fred/CLionProjects/CMPT135"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Points">
+				<Option output="/home/fred/CLionProjects/CMPT135/bin/Points" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 Points"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Points/fast">
+				<Option output="/home/fred/CLionProjects/CMPT135/bin/Points" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 Points/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fred/CLionProjects/CMPT135"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fred/CLionProjects/CMPT135"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleLibrary">
+				<Option output="/home/fred/CLionProjects/CMPT135/lib/libsimpleLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/lib/Makefile&quot;  VERBOSE=1 simpleLibrary"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleLibrary/fast">
+				<Option output="/home/fred/CLionProjects/CMPT135/lib/libsimpleLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/lib/Makefile&quot;  VERBOSE=1 simpleLibrary/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runAllTests">
+				<Option output="/home/fred/CLionProjects/CMPT135/bin/runAllTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/Makefile&quot;  VERBOSE=1 runAllTests"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runAllTests/fast">
+				<Option output="/home/fred/CLionProjects/CMPT135/bin/runAllTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/Makefile&quot;  VERBOSE=1 runAllTests/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/fred/CLionProjects/CMPT135/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/test/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/fred/CLionProjects/CMPT135/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/test/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/fred/CLionProjects/CMPT135/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/test/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/fred/CLionProjects/CMPT135/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/test/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/fred/CLionProjects/CMPT135/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/fred/CLionProjects/CMPT135/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/fred/CLionProjects/CMPT135/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/fred/CLionProjects/CMPT135/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fred/CLionProjects/CMPT135/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/include"/>
+					<Add directory="/home/fred/CLionProjects/CMPT135/test/lib/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/fred/CLionProjects/CMPT135/test/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/Chatbot.h">
+			<Option target="simpleLibrary"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/a4.cpp">
+			<Option target="simpleLibrary"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/a4.h">
+			<Option target="simpleLibrary"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/lamda.cpp">
+			<Option target="Points"/>
+			<Option target="simpleLibrary"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/letter_hist.cpp">
+			<Option target="simpleLibrary"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/lib/Awards.cpp">
+			<Option target="simpleLibrary"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/lib/Hailstone.cpp">
+			<Option target="simpleLibrary"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/lib/Triangle.cpp">
+			<Option target="simpleLibrary"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/mycat_2bugs.cpp">
+			<Option target="simpleLibrary"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/test/Awards_test.cpp">
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/test/Hailstone_test.cpp">
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/test/TriangleTest.cpp">
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/test/lib/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/test/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/test/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/test/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/fred/CLionProjects/CMPT135/test/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

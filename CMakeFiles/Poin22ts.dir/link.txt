@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Poin22ts.dir/swapping.cpp.o  -o bin/Poin22ts 

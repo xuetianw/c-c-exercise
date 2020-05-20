@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Points.dir/lamda.cpp.o  -o bin/Points 

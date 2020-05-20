@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fred/CLionProjects/CMPT135/lamda.cpp
+vector
+-
+algorithm
+-
+iostream
+-
+numeric
+-
+functional
+-
+chrono
+-
+deque
+-
+

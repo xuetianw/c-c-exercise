@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/runAllTests.dir/TriangleTest.cpp.o CMakeFiles/runAllTests.dir/Hailstone_test.cpp.o CMakeFiles/runAllTests.dir/Awards_test.cpp.o  -o ../bin/runAllTests  ../lib/libgmock.a ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libsimpleLibrary.a ../lib/libgtest.a -lpthread -lm 
